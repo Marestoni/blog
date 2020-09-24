@@ -21,7 +21,7 @@ class Dashboard extends Component{
         }
         firebase.getUserName((info)=>{
             localStorage.nome= info.val().nome
-            this.setState({nome: localStorage.nome})
+            this.setState({nome: localStorage.nome});
         })
     }
 
@@ -29,8 +29,8 @@ class Dashboard extends Component{
        await firebase.logout().catch((erro)=>{
            console.log(erro)
        });
-       localStorage.removeItem("nome")
-       this.props.history.push('/')
+       localStorage.removeItem("nome");
+       this.props.history.push('/');
     }
 
     render(){
