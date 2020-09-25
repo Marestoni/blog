@@ -5,13 +5,13 @@ import 'firebase/storage';
 
     //Configurações do seu projeto
     let firebaseConfig = {
-        apiKey: "AIzaSyAvQGKeqb8OR6S5zw42FxEh5Hru-3tGod4",
-        authDomain: "reactapp-1f26d.firebaseapp.com",
-        databaseURL: "https://reactapp-1f26d.firebaseio.com",
-        projectId: "reactapp-1f26d",
-        storageBucket: "reactapp-1f26d.appspot.com",
-        messagingSenderId: "1010900633320",
-        appId: "1:1010900633320:web:b42ae51843d110c817eb5d"
+        apiKey:,
+        authDomain: ,
+        databaseURL: ,
+        projectId: ,
+        storageBucket: ,
+        messagingSenderId: ,
+        appId: "
     };
 
 class Firebase{
